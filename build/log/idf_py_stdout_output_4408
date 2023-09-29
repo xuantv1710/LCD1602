@@ -1,0 +1,114 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'E:/esp/i2c_lcd/sdkconfig'
+-- Found Git: E:/esp/Espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: E:/esp/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/esp/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/esp/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file E:/esp/i2c_lcd/sdkconfig
+E:/esp/i2c_lcd/sdkconfig:22 CONFIG_APP_BUILD_TYPE_ELF_RAM was replaced with CONFIG_APP_BUILD_TYPE_RAM
+E:/esp/i2c_lcd/sdkconfig:209 CONFIG_MCPWM_ISR_IN_IRAM was replaced with CONFIG_MCPWM_ISR_IRAM_SAFE
+E:/esp/i2c_lcd/sdkconfig:288 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+E:/esp/i2c_lcd/sdkconfig:289 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+E:/esp/i2c_lcd/sdkconfig:290 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+E:/esp/i2c_lcd/sdkconfig:291 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+E:/esp/i2c_lcd/sdkconfig:292 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+E:/esp/i2c_lcd/sdkconfig:295 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+E:/esp/i2c_lcd/sdkconfig:296 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+E:/esp/i2c_lcd/sdkconfig:297 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+E:/esp/i2c_lcd/sdkconfig:298 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+E:/esp/i2c_lcd/sdkconfig:299 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+E:/esp/i2c_lcd/sdkconfig:300 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+E:/esp/i2c_lcd/sdkconfig:301 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+E:/esp/i2c_lcd/sdkconfig:302 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+E:/esp/i2c_lcd/sdkconfig:303 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+E:/esp/i2c_lcd/sdkconfig:304 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+E:/esp/i2c_lcd/sdkconfig:305 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+E:/esp/i2c_lcd/sdkconfig:306 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+E:/esp/i2c_lcd/sdkconfig:307 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+E:/esp/i2c_lcd/sdkconfig:308 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+E:/esp/i2c_lcd/sdkconfig:309 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+E:/esp/i2c_lcd/sdkconfig:310 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+E:/esp/i2c_lcd/sdkconfig:311 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+E:/esp/i2c_lcd/sdkconfig:312 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+E:/esp/i2c_lcd/sdkconfig:313 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+E:/esp/i2c_lcd/sdkconfig:314 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+E:/esp/i2c_lcd/sdkconfig:315 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+E:/esp/i2c_lcd/sdkconfig:316 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+E:/esp/i2c_lcd/sdkconfig:317 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+E:/esp/i2c_lcd/sdkconfig:318 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+E:/esp/i2c_lcd/sdkconfig:319 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+E:/esp/i2c_lcd/sdkconfig:320 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+E:/esp/i2c_lcd/sdkconfig:321 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+E:/esp/i2c_lcd/sdkconfig:323 CONFIG_ESP32_NO_BLOBS was replaced with CONFIG_APP_NO_BLOBS
+E:/esp/i2c_lcd/sdkconfig:324 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+E:/esp/i2c_lcd/sdkconfig:325 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+E:/esp/i2c_lcd/sdkconfig:398 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+E:/esp/i2c_lcd/sdkconfig:514 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+E:/esp/i2c_lcd/sdkconfig:541 CONFIG_ESP32_WIFI_ENABLED was replaced with CONFIG_ESP_WIFI_ENABLED
+E:/esp/i2c_lcd/sdkconfig:542 CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM
+E:/esp/i2c_lcd/sdkconfig:543 CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM
+E:/esp/i2c_lcd/sdkconfig:544 CONFIG_ESP32_WIFI_STATIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_STATIC_TX_BUFFER
+E:/esp/i2c_lcd/sdkconfig:545 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER
+E:/esp/i2c_lcd/sdkconfig:546 CONFIG_ESP32_WIFI_TX_BUFFER_TYPE was replaced with CONFIG_ESP_WIFI_TX_BUFFER_TYPE
+E:/esp/i2c_lcd/sdkconfig:547 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM
+E:/esp/i2c_lcd/sdkconfig:548 CONFIG_ESP32_WIFI_CSI_ENABLED was replaced with CONFIG_ESP_WIFI_CSI_ENABLED
+E:/esp/i2c_lcd/sdkconfig:549 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_TX_ENABLED
+E:/esp/i2c_lcd/sdkconfig:550 CONFIG_ESP32_WIFI_TX_BA_WIN was replaced with CONFIG_ESP_WIFI_TX_BA_WIN
+E:/esp/i2c_lcd/sdkconfig:551 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_RX_ENABLED
+E:/esp/i2c_lcd/sdkconfig:552 CONFIG_ESP32_WIFI_RX_BA_WIN was replaced with CONFIG_ESP_WIFI_RX_BA_WIN
+E:/esp/i2c_lcd/sdkconfig:553 CONFIG_ESP32_WIFI_NVS_ENABLED was replaced with CONFIG_ESP_WIFI_NVS_ENABLED
+E:/esp/i2c_lcd/sdkconfig:554 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_0
+E:/esp/i2c_lcd/sdkconfig:555 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_1 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_1
+E:/esp/i2c_lcd/sdkconfig:556 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN was replaced with CONFIG_ESP_WIFI_SOFTAP_BEACON_MAX_LEN
+E:/esp/i2c_lcd/sdkconfig:557 CONFIG_ESP32_WIFI_MGMT_SBUF_NUM was replaced with CONFIG_ESP_WIFI_MGMT_SBUF_NUM
+E:/esp/i2c_lcd/sdkconfig:558 CONFIG_ESP32_WIFI_IRAM_OPT was replaced with CONFIG_ESP_WIFI_IRAM_OPT
+E:/esp/i2c_lcd/sdkconfig:559 CONFIG_ESP32_WIFI_RX_IRAM_OPT was replaced with CONFIG_ESP_WIFI_RX_IRAM_OPT
+E:/esp/i2c_lcd/sdkconfig:560 CONFIG_ESP32_WIFI_ENABLE_WPA3_SAE was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_SAE
+E:/esp/i2c_lcd/sdkconfig:692 CONFIG_HAL_ASSERTION_SILIENT was replaced with CONFIG_HAL_ASSERTION_SILENT
+E:/esp/i2c_lcd/sdkconfig:1217 CONFIG_WPA_MBEDTLS_CRYPTO was replaced with CONFIG_ESP_WIFI_MBEDTLS_CRYPTO
+E:/esp/i2c_lcd/sdkconfig:1218 CONFIG_WPA_WAPI_PSK was replaced with CONFIG_ESP_WIFI_WAPI_PSK
+E:/esp/i2c_lcd/sdkconfig:1219 CONFIG_WPA_SUITE_B_192 was replaced with CONFIG_ESP_WIFI_SUITE_B_192
+E:/esp/i2c_lcd/sdkconfig:1220 CONFIG_WPA_DEBUG_PRINT was replaced with CONFIG_ESP_WIFI_DEBUG_PRINT
+E:/esp/i2c_lcd/sdkconfig:1221 CONFIG_WPA_TESTING_OPTIONS was replaced with CONFIG_ESP_WIFI_TESTING_OPTIONS
+E:/esp/i2c_lcd/sdkconfig:1222 CONFIG_WPA_WPS_STRICT was replaced with CONFIG_ESP_WIFI_WPS_STRICT
+E:/esp/i2c_lcd/sdkconfig:1223 CONFIG_WPA_11KV_SUPPORT was replaced with CONFIG_ESP_WIFI_11KV_SUPPORT
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: E:/esp/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "i2c_lcd" version: 1
+-- Adding linker script E:/esp/i2c_lcd/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/app_trace E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/app_update E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/bootloader E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/bootloader_support E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/bt E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/cmock E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/console E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/cxx E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/driver E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/efuse E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp-tls E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_adc E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_app_format E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_coex E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_common E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_eth E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_event E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_gdbstub E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_hid E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_http_client E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_http_server E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_https_ota E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_https_server E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_hw_support E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_lcd E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_local_ctrl E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_mm E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_netif E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_netif_stack E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_partition E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_phy E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_pm E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_psram E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_ringbuf E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_rom E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_timer E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esp_wifi E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/espcoredump E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/esptool_py E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/fatfs E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/freertos E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/hal E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/heap E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/http_parser E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/idf_test E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/ieee802154 E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/json E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/log E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/lwip E:/esp/i2c_lcd/main E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/mbedtls E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/mqtt E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/newlib E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/nvs_flash E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/openthread E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/partition_table E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/perfmon E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/protobuf-c E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/protocomm E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/pthread E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/sdmmc E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/soc E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/spi_flash E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/spiffs E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/tcp_transport E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/ulp E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/unity E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/usb E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/vfs E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/wear_levelling E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/wifi_provisioning E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/wpa_supplicant E:/esp/Espressif/frameworks/esp-idf-v5.1.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/esp/i2c_lcd/build

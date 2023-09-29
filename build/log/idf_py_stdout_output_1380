@@ -1,0 +1,9 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "E:/esp/i2c_lcd/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+E:\esp\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SE:\esp\i2c_lcd -BE:\esp\i2c_lcd\build
